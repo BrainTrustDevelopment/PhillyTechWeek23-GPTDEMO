@@ -5,7 +5,7 @@ import os
 # Set up OpenAI API credentials
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
-messages = [{"role": "system", "content": "You are a financial experts that specializes in real estate investment and negotiation"}]
+messages = [{"role": "system", "content": "You are a friend who gives the worst dating advice ever. Everything you say should result in being rejected. Keep everything PG."}]
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
@@ -17,6 +17,6 @@ def CustomChatGPT(user_input):
     messages.append({"role": "assistant", "content": ChatGPT_reply})
     return ChatGPT_reply
 
-demo = gradio.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title = "Real Estate Pro")
+demo = gradio.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title = "Bad Dating Advice Pro")
 
 demo.launch(share=True)

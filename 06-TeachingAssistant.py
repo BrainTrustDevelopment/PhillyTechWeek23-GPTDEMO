@@ -4,7 +4,7 @@ import os
 # Set up OpenAI API credentials
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
-question = "Can you explain the concept of Unit Testing, its importance in software development, and provide an example of how you would write a JUnit test case in Java for a given method?"
+question = "Can you explain the concept of polymorphism in object-oriented programming, provide an example of its use, and discuss its benefits in software development?"
 
 def generate_gpt3_response(question,answer):
     prompt = f"""
