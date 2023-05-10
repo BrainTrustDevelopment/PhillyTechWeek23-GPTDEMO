@@ -1,6 +1,10 @@
 # Link to Repo
 ![](./frame.png)
 
+# Further Learning 
+
+[Free OpenAi Class](https://learn.deeplearning.ai/)
+
 # Getting Started
 
 1. Open your Visual Studio Code project and create a new Python file or open an existing one.
