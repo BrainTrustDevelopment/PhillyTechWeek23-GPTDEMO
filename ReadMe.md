@@ -38,7 +38,7 @@ In Java, JUnit is a popular testing framework for writing and running unit tests
 Response 2 (Good):
 Unit Testing is the process of testing individual units or components of a software to ensure they are working as expected. It's important for catching bugs early, maintaining code quality, and ensuring the software is reliable.
 
-In Java, JUnit is a widely used framework for writing unit tests. For example, if there's a method `public int add(int a, int b)` in a class `Calculator`, a JUnit test case for this method can be written. We would import the necessary JUnit classes, create a test class, and use the `@Test` annotation to define a test method. We then create an instance of the `Calculator` class and use `assertEquals()` to check if the result is correct.
+In Java, JUnit is a widely used framework for writing unit tests. For example, if there's a method public int add(int a, int b)` in a class `Calculator`, a JUnit test case for this method can be written. We would import the necessary JUnit classes, create a test class, and use the `@Test` annotation to define a test method. We then create an instance of the `Calculator` class and use `assertEquals()` to check if the result is correct.
 
 Response 3 (Poor):
 Unit Testing is when you test the code. It's important because you want to make sure your code works. In Java, you can use JUnit to test your code. For example, if you have an `add()` method, you can write a test. In this example, I created a test class and a test method, then printed the result of the `add()` method to check if it's correct.
